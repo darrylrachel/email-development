@@ -88,49 +88,53 @@
                 mso-table-rspace: 0pt !important;
                 }
         </style>
-    <!-- [endif] -->
+    <![endif] -->
     
     <title>Boilerplate</title>
 </head>
 <body class="body" xml:lang="en" style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1;">
+  <div style="width: 100%; table-layout: fixed; background-color: #dde0e1; color: #3d3d3d; font-family: Arial, Helvetica sans-serif; font-size: 16px; margin: 0 auto 40px;">
+    <div style="max-width: 600px; background-color: #fafdfe; color: #3d3d3d; font-family: Arial, Helvetica, sans-serif;font-size: 16px; box-shadow: 0 0 10px rgba(0,0,0,.2); margin: 0 auto;">
 
-    <div style="
-        width: 100%; 
-        table-layout: fixed; 
-        background-color: #dde0e1; 
-        color: #3d3d3d; 
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0 auto 40px;">
-        <div style="
-            max-width: 600px;
-            background-color: #fafdfe;
-            color: #3d3d3d;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            box-shadow: 0 0 10px rgba(0,0,0,.2);
-            margin: 0 auto;">
+    <!-- preheader text -->
+      <div style="font-size: 0; color: #fafdfe; mso-line-height-rule: exactly; line-height: 0; display: none; max-width: 0; max-height: 0; opacity: 0; overflow: hidden; mso-hide: all;">
+        This is the preheader text which can be 35-190 characters but 85-100 recommended.
+        <!-- pushes content after preheader preview out of area, add as many as needed to push content out of preview area -->
+          &zwnj;&nbsp;&#847;
+      </div>
 
-            <!-- preheader text -->
-             <div style="
-                    font-size: 0;
-                    color: #fafdfe;
-                    mso-line-height-rule: exactly;
-                    line-height: 0;
-                    display: none;
-                    max-width: 0;
-                    max-height: 0;
-                    opacity: 0;
-                    overflow: hidden;
-                    mso-hide: all;">
-                This is the preheader text which can be 35-190 characters but 85-100 recommended.
+      <!-- Begin MSO ghost table -->
+      <!-- [if mso]> 
+      <table width="600" align="center" style="border-spacing: 0; border-collapse: collapse; color: #3d3d3d;" role="presentation">
+      <tr>
+      <td style="padding: 0;">
+      <![endif] -->
 
-                <!-- pushes content after preheader preview out of area, add as many as needed to push content out of preview area -->
-                 &zwnj;&nbsp;&#847;
-             </div>
+        <table align="center" role="presentation" style="border-spacing: 0; border-collapse: collapse; color: #3d3d3d; font-family: Arial, Helvetica, sans-serif; font-size: 16px; background-color: #fafdfe; margin: 0 auto; padding: 0; width: 100%; max-width: 600px;">
+            <tr>
+                <td style="padding: 0;">
+                    <table width="100%" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                            <td style="padding: 10px; background-color: #c0c0ff;">
+                                <h1 style="text-align: center; font-size: 30px;">Hello</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+      <!-- [if mso]>
+        </td>
+        </tr>
+        </table>
+      <![endif] -->
+      <!-- End ghost table -->
+
+             
 
 
-            <h1>Hello</h1>
+           
         </div>
     </div>
 
